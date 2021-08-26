@@ -1,0 +1,83 @@
+
+
+
+    body { 
+        margin: 0;
+    text-align:center;
+    font-family: arial,sans-serif;
+    color: #222;
+    font-size: 14px;
+      }
+
+
+#googlemag{
+    background: white url(mag.png) left no-repeat;
+    padding-left: 17px;
+    margin-bottom: 17px;
+}
+    
+
+.ba{
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    
+    
+ }
+ a.about:first-of-type{
+     margin-left: 15px;
+ }
+ a.about{
+     padding: 5px;
+     margin : 0 5px;
+     color: #222;
+    }
+
+
+a.store{
+        padding: 5px;
+        margin : 0 5px;
+        color: #222;
+       }
+
+a {
+    text-decoration: none;
+}
+
+.ba_1{
+
+    display: inline-block;
+    flex-grow: 1;
+    
+}
+.ba_2{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    
+}
+
+.ba_3{
+    display: flex;
+    align-items: center;
+
+}
+
+a.gmail{
+    padding:5px;
+    color:#222;
+}
+
+a.images{
+    padding: 5px;
+    color: #222;
+
+}
+
+.mag{
+    width: 25px;
+}
+
+ul{
+    list-style-type: none;
+}
