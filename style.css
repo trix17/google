@@ -96,11 +96,12 @@ ul{
 }
 
 
-/* So far so good */
+/* So far so good 
 .middle{
     
         margin:9%;
     }
+    */
 
 
 
@@ -109,6 +110,8 @@ ul{
     align-items: center;
     box-sizing: border-box;
     background-color: #f2f2f2;
+    padding: 0;
+    margin:0;
     
 }
 
@@ -171,5 +174,5 @@ ul{
     position: absolute;
   bottom: 0;
   width: 100%;
-  height: 5rem;            /* Footer height */
+  /* height: 5rem;            Footer height */
 }
