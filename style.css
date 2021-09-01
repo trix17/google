@@ -11,11 +11,21 @@
 
 
 #googlemag{
-    background: white url(mag.png) left no-repeat;
+    background: rgb(243, 237, 237) url(mag.png) left no-repeat;
+    background-color: #0bc9d685;
     padding-left: 17px;
     margin-bottom: 17px;
-}
+    border-radius:20px;
+    width: 500px;
+    height: 35px;
     
+    
+    
+}
+
+#googlemag:hover{
+    box-shadow: 0 0 11px rgba(33,33,33,.2); 
+}
 
 .ba{
     display: flex; 
